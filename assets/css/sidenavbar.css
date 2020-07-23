@@ -1,0 +1,104 @@
+/*
+.sidenav {
+  height: auto;
+  width: auto;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  background-color: #fff0ec;
+  overflow-x: hidden;
+  padding-top: 0px;
+}
+
+.sidenav a {
+  padding: 0px 0px 0px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #454241;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f43801;
+}
+
+.main {
+  margin-left: 160px;
+}
+
+@media screen and (max-height: auto) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+}
+
+.sidenavhead {
+  padding: 0px 0px 0px 5px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fe3a00;
+  display: block;
+  font-weight: bold;
+}
+*/
+
+.sidepanel  {
+  width: auto;
+  position: absolute;
+  z-index: 1;
+  height: auto;
+  top: 48px;
+  left: 0;
+  background-color: #fff0ec;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+
+.sidepanel a {
+  padding: 0px 0px 0px 11px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #454241;
+  display: block;
+}
+
+.sidepanel a:hover {
+  color: #f43801;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+}
+
+.openbtn {
+  width: auto;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  position: absolute;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+.sidenavhead {
+  padding: 0px 0px 0px 5px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fe3a00;
+  display: block;
+  font-weight: bold;
+}
+
+@media screen and (max-height: auto) {
+  .sidepanel {padding-top: 15px;}
+  .sidepanel a {font-size: 15px;}
+}
